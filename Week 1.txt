@@ -3,3 +3,29 @@ highly-scalable
 secure
 reliable
 infrastructure.
+
+Computing, storage, big data/machine learning, and application services for
+web, mobile, analytics, and backend solutions
+
+No Up-front payments
+
+Google Infrastructure - 15 years
+Regions
+Zones
+
+Innovative Customer-friendly pricing
+
+Sub-hour billing by the minute - other providers charge per month
+Sustained-use discounts - Auto discount for VMs run over 25% of any calendar month 
+
+Future of Cloud Computing - CoLocation then Virtual then A global, elastic cloud
+
+###How to get in#######
+
+console.cloud.google.com
+I'm using bpeterson@aggienetwork.com
+
+cp100 Project ID:
+omega-episode-159518
+
+
