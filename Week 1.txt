@@ -1,0 +1,5 @@
+GCP enables developers to build, test, and deploy applications on Google's
+highly-scalable
+secure
+reliable
+infrastructure.
