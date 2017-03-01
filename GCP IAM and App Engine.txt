@@ -1,0 +1,70 @@
+GCP
+
+What is a GCP Project?
+Project is a container for billing, permissions, and resources.
+Owner can assign rights to users
+Owner can turn services on and off
+
+Project ID - 3 ways
+Name - Friendly Name 
+ID - Unique ID 
+Number - Used for identifying resources that belong to specific projects
+
+Cloud Resource Manager API - programmatic creation of projects
+
+GCP IAM
+2 kinds of roles: 
+Primitive -  
+Curated - Finer grained access control to specific services within a project 
+Owner - can do all plus add users 
+Editor - Can spend money
+Viewer - read only
+Each project is attached to an account.
+
+IAM - 
+Who
+Can do what
+On which resource
+
+Google Defines roles. 
+
+Every resource must be in a project. 
+
+One thing to be aware of - a more restrictive right at a lower level does NOT trump less restrictive rights at a higher level.
+
+Organization Node - Adding users to organization adds them to each sub project 
+
+Service accounts - provide an identity for server - server 
+Used to auth from one service to another
+Can be used with primitive and curated roles
+Identified with an email address
+
+Users are identified by their email and password.
+Service accounts use keys to login. For app engine and compute engine, Google manages keys for you and rotates them periodically. Or you can manage your own keys if needed.
+
+Cloud shell is a browser based SDK that allows you to use it for command line access
+
+Google Cloud Client Libraries
+
+App Engine
+
+Cloud Datastore is a completely managed NoSQL instance
+
+App Engine is PaaS for building scalable web apps and mobile backends. 
+
+App Engine seamlessly starts the new version of your app and stops the old version for a bugfix
+
+App Engine Autoscales for you and brings up / shuts instances off for you
+
+There are no load balancers to configure - no patches to install. It just works
+
+App Engine manages the hardware, networking infrastructure, load balancing, monitoring and scaling required to run your code.
+
+Snapchat is a great example of App Engine success. They quickly release new versions live.
+
+App Engine Standard
+
+
+
+
+

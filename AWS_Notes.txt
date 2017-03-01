@@ -1,0 +1,21 @@
+IAM - 
+Users and Policy Documents are:	
+	Applied by Region
+	Applied Globally
+	Separated by Users = Regional, Policies = Globally <----- I like this one......WRONG
+	Vice versa.
+	
+To assign permissions to a user, group, role or resource (4 types) - you create a Policy
+A Policy is a document that explicitly lists permissions
+	-Actions - what actions are allowed. Explicit allowing required 
+	-Resources - what resources you are allowed the action on. Deny is default 
+	-Effect - what the effect will be when the user requests access. Deny is default.
+	
+Policies are JSON documents
+
+A Policy consists of one or more statements, and statements describe one set of permissions.
+
+Resource-based policies must include a principal
+
+Policy Validator - detect and correct invalid policies
+Policy Generator - allows creation without accessing the console
