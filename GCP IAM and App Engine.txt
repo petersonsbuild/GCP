@@ -62,7 +62,13 @@ App Engine manages the hardware, networking infrastructure, load balancing, moni
 
 Snapchat is a great example of App Engine success. They quickly release new versions live.
 
-App Engine Standard
+App Engine Standard - uses Google Containers
+
+AE can handle services that are written in different languages
+
+Use Cloud Datastore to save data in App Engine applications
+
+AE Flexible environment. Uses Docker containers.
 
 
 
