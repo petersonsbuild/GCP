@@ -70,6 +70,35 @@ Use Cloud Datastore to save data in App Engine applications
 
 AE Flexible environment. Uses Docker containers.
 
+GCP Storage Options
+
+Cloud Storage, Cloud SQL, Cloud Bigtable
+
+Cloud Storage (GCS) - Standard, DRA (Durable Reduced Availability) and Nearline Storage 
+All options provide 11-9s of availability and low latency. 
+Multi-regional offers 99.95 availability
+Regional offers 99.9 availability
+
+Standard Use cases - For frequently access data around the world. Serving website content, streaming videos, gaming/mobile apps 
+
+Nearline/Coldline - infrequently accessed data. backups, archives, DR. 
+
+Storage can be used for CE scripts or as a staging area for data going into Cloud SQL
+
+Bigtable is NoOps, NoSQL - automatically replicated across zones.
+
+Bigtable is used by gmail and analytics
+
+Use bigtable for large amounts of unstructured storage, larger than 1TB
+
+Cloud SQL is MySQL in the cloud , but is fully managed.
+
+Cloud SQL includes a firewall
+
+
+
+
+
 
 
 

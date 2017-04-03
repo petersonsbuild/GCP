@@ -19,3 +19,13 @@ Resource-based policies must include a principal
 
 Policy Validator - detect and correct invalid policies
 Policy Generator - allows creation without accessing the console
+
+What is the difference between a service and a resource?
+
+By Default, a newly created IAM User is granted No access to services or resources...
+
+MFA is not required for Administrator access. Administrators group is a thing.
+
+IAM is not biometric enabled
+
+console access does not require the access key id and secret access key
